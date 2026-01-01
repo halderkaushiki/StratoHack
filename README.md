@@ -74,6 +74,8 @@ If you are running a ground station at IIT Madras, you need to know exactly when
 * **Antenna Scheduling:** The IITM ground station can use this AI to decide which satellite to track first if two appear at once.
 * **Energy Savings:** The motors that move satellite dishes consume power. By knowing the duration in advance, the system can stay in "sleep mode" until the exact second the window opens.
 
+---
+
 ### Summary of Tech Stack
 
 * **Physics:** `skyfield` (Orbital mechanics).
